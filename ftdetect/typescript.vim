@@ -1,3 +1,4 @@
 augroup PrettierFileDetect
-  autocmd BufNewFile,BufReadPost *.ts,*.tsx setfiletype typescript
+  autocmd BufNewFile,BufRead *.ts setfiletype typescript
+  autocmd BufNewFile,BufRead *.tsx setfiletype typescriptreact
 augroup end
